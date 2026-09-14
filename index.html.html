@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>LX PANTOS Contact Point</title>
+  <style>
+    :root { --red:#B5222A; --dark:#403B39; --muted:#776F6B; --background:#F5F5F4; --border:#E2E0DE; --soft-red:#F8E9E9; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--background); color:var(--dark); font-family:Arial,"Noto Sans KR",sans-serif; line-height:1.6; }
+    header { padding:40px 20px; background:linear-gradient(135deg,var(--red),#8F1D24); color:#fff; text-align:center; }
+    header h1 { margin:0; font-size:1rem; letter-spacing:2px; }
+    header h2 { margin:8px 0; font-size:2rem; }
+    header p { margin:0; opacity:.95; }
+    .container { max-width:1200px; margin:auto; padding:24px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+    .card { padding:20px; background:#fff; border:1px solid var(--border); border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+    .card h3 { margin-top:12px; color:var(--red); }
+    .badge { display:inline-block; padding:6px 10px; background:var(--soft-red); color:var(--red); border-radius:999px; font-size:.85rem; font-weight:700; }
+    .row { margin:10px 0; }
+    .label { font-weight:700; }
+    .link { color:var(--red); text-decoration:none; overflow-wrap:anywhere; }
+    .link:hover,.link:focus { text-decoration:underline; }
+    .link:focus-visible { outline:3px solid var(--red); outline-offset:3px; border-radius:3px; }
+    footer { padding:20px; color:var(--muted); text-align:center; }
+    @media (max-width:768px) { .grid { grid-template-columns:1fr; } header h2 { font-size:1.6rem; } .container { padding:16px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LX PANTOS</h1>
+    <h2>Contact Point</h2>
+    <p>글로벌 물류 서비스별 담당자 안내</p>
+  </header>
+  <main class="container">
+    <section class="grid" aria-label="물류 서비스별 담당자">
+      <article class="card">
+        <span class="badge">① 항공 (B2B)</span>
+        <h3>Air Freight</h3>
+        <div class="row"><span class="label">담당자:</span> 이경표 책임</div>
+        <div class="row"><span class="label">Email:</span> <a class="link" href="mailto:kyungpyo.lee@lxpantos.com">kyungpyo.lee@lxpantos.com</a></div>
+        <div class="row"><span class="label">Phone:</span> <a class="link" href="tel:+82269011154">+82-2-6901-1154</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">② 특송 (B2C)</span>
+        <h3>Express</h3>
+        <div class="row"><span class="label">담당자:</span> 담당자명</div>
+        <div class="row"><span class="label">Email:</span> <a class="link" href="mailto:express@example.com">express@example.com</a></div>
+        <div class="row"><span class="label">Phone:</span> <a class="link" href="tel:+0000000000">+00-000-0000</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">③ 해상</span>
+        <h3>Ocean Freight</h3>
+        <div class="row"><span class="label">담당자:</span> 담당자명</div>
+        <div class="row"><span class="label">Email:</span> <a class="link" href="mailto:ocean@example.com">ocean@example.com</a></div>
+        <div class="row"><span class="label">Phone:</span> <a class="link" href="tel:+0000000000">+00-000-0000</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">④ 현지창고 (CL)</span>
+        <h3>Contract Logistics</h3>
+        <div class="row"><span class="label">담당자:</span> 담당자명</div>
+        <div class="row"><span class="label">Email:</span> <a class="link" href="mailto:warehouse@example.com">warehouse@example.com</a></div>
+        <div class="row"><span class="label">Phone:</span> <a class="link" href="tel:+0000000000">+00-000-0000</a></div>
+      </article>
+    </section>
+  </main>
+  <footer>LX PANTOS Contact Point</footer>
+</body>
+</html>
